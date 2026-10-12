@@ -10,7 +10,6 @@ export const POSTER_CONFIG = {
     instagram: import.meta.env.VITE_INSTAGRAM_URL || '#',
     youtube: import.meta.env.VITE_YOUTUBE_URL || '#',
     facebook: import.meta.env.VITE_FACEBOOK_URL || '#',
-    website: import.meta.env.VITE_WEBSITE_URL || '#',
     email: import.meta.env.VITE_EMAIL_ADDRESS || '#',
   },
   breakpointMobile: 768,

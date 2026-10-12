@@ -1,6 +1,6 @@
 import React from 'react'
 import { POSTER_CONFIG } from '../../constants/posterConfig'
-import { InstagramIcon, YoutubeIcon, FacebookIcon, GlobeIcon, MailIcon } from '../common/Icons'
+import { InstagramIcon, YoutubeIcon, FacebookIcon, MailIcon } from '../common/Icons'
 
 export function PosterSocialHotspots({ isMobile }) {
   const { socialLinks } = POSTER_CONFIG
@@ -26,13 +26,6 @@ export function PosterSocialHotspots({ isMobile }) {
       handle: 'tatvae',
       url: socialLinks.facebook,
       icon: FacebookIcon,
-    },
-    {
-      id: 'website',
-      name: 'Website',
-      handle: 'www.tatvae.com',
-      url: socialLinks.website,
-      icon: GlobeIcon,
     },
     {
       id: 'email',
